@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+  <Name>Miscord</Name>
+  <Description>Miscord</Description>
+  <Registry>https://hub.docker.com/r/miscord/miscord/</Registry>
+  <Repository>miscord/miscord</Repository>
+  <BindTime>true</BindTime>
+  <Privileged>false</Privileged>
+  <Environment/>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>24000</HostPort>
+        <ContainerPort>24000</ContainerPort>
+        <Protocol>udp</Protocol>
+      </Port>
+      <Port>
+        <HostPort>27015</HostPort>
+        <ContainerPort>27015</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/appdata/factorio</HostDir>
+      <ContainerDir>/factorio</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Icon>https://wiki.factorio.com/images/Factorio-icon.png</Icon>
+  <ExtraParams></ExtraParams>
+</Container>
