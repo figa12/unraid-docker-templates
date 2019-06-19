@@ -24,8 +24,8 @@
   </Networking>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/appdata/miscord</HostDir>
-      <ContainerDir>/miscord</ContainerDir>
+      <HostDir>/mnt/user/appdata/miscord/config</HostDir>
+      <ContainerDir>/config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
