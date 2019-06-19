@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-  <Name>Miscord</Name>
-  <Description>Miscord</Description>
+  <Name>miscord</Name>
+  <Description>miscord</Description>
   <Registry>https://hub.docker.com/r/miscord/miscord/</Registry>
   <Repository>miscord/miscord</Repository>
   <BindTime>true</BindTime>
