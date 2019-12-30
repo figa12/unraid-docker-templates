@@ -2,7 +2,7 @@
 <Container>
   <Name>Factorio</Name>
   <Description>Factorio server</Description>
-  <Registry>https://hub.docker.com/r/dtandersen/factorio/</Registry>
+  <Registry>https://hub.docker.com/r/factoriotools/factorio/</Registry>
   <Repository>dtandersen/factorio</Repository>
   <BindTime>true</BindTime>
   <Privileged>false</Privileged>
